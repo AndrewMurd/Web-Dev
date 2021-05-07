@@ -1,0 +1,6 @@
+extends toplevel 
+block content 
+    p(id="text") Your tickets have been purchased.
+    p(id="text") Confirmation number: #{num}
+    figure(class="image is-128x128")
+            img(src=qrcode) 

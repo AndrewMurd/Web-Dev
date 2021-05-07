@@ -1,0 +1,67 @@
+.hero-body {
+    background-color: rgb(226, 100, 127);
+}
+
+.button {
+    background-color: rgb(226, 100, 127) !important;
+    color: white !important;
+}
+
+.title, .subtitle {
+    color: white !important;
+}
+
+#text {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.image {
+    margin-left: 50px !important;
+    width: 300px !important;
+    height: 300px !important;
+}
+ 
+.form {
+    display: grid;
+    grid-template-columns: 20% 3fr 5fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 1rem;
+    margin-top: 40px;
+}
+ 
+.label {
+    grid-column: 1;
+    margin-left: auto;
+    margin-top: 5px;
+}
+ 
+.control {
+    grid-column: 2;
+    height: 2rem;
+}
+ 
+.row1 {
+    grid-row: 1;
+}
+ 
+.row2 {
+    grid-row: 2;
+}
+ 
+.row3 {
+    grid-row: 3;
+}
+
+.row4 {
+    grid-row: 4;
+}
+.row5 {
+    grid-row: 5;
+}
+.button {
+    grid-row: 6;
+    grid-column: 2;
+    width: 60px;
+    background-color: rgb(226, 100, 127);
+}
+ 

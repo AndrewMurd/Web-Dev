@@ -1,0 +1,38 @@
+/* YOUR CODE GOES HERE */
+
+table {
+	border-collapse: collapse; 
+	font-family: Calibri, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	margin-top: 30px;
+	text-align: center; 
+	vertical-align: middle;
+}
+
+td { 
+	border: 1px solid black;
+	height: 35px;
+	width: 100px;
+	font-size: 15px;
+	color: black;
+}
+
+.txtField {
+	height: 15px;
+	width: 80px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.selected {
+	background-color: #f0f0ff;
+}
+
+.header {
+	background-color: #e0e0e0;
+}

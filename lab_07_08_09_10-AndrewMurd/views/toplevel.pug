@@ -1,0 +1,12 @@
+html 
+    head
+        title=pageTitle
+        link(rel="stylesheet", href="styles/pug.css") 
+        link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css")
+    body
+        section(class="hero" id="header")
+        div(class="hero-body")
+            p(class="title")= headerTitle
+            p(class="subtitle")= headerSubtitle 
+        
+        block content

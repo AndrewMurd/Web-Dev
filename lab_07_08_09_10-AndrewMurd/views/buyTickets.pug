@@ -1,0 +1,51 @@
+extends toplevel 
+block content 
+      form(method="post", action="/buyTickets", class="form")
+            label(class="label row1", for="title") Movie:
+            input(type="text",
+                  id="title",
+                  name="title",
+                  class="input row1"
+                  value=`${title}` readonly)
+
+            label(class="label row2", for="location") Location:
+            input(type="text",
+                  id="location",
+                  name="location",
+                  class="input row2",
+                  value=`${location}` readonly)
+
+            label(class="label row3", for="date") Date:
+            input(type="text",
+                  id="date",
+                  name="date",
+                  class="input row3",
+                  value=`${date}` readonly)
+
+            label(class="label row4", for="time") Time:
+            input(type="text",
+                  id="time",
+                  name="time",
+                  class="input row4",
+                  value=`${time}` readonly)
+            
+            label(class="label row5", for="quantity") Quantity:
+            input(type="text",
+                  id="quantity",
+                  name="quantity",
+                  class="input row5",
+                  value=1)
+
+            input(type="hidden",
+                  id="movie_id",
+                  name="movie_id",
+                  class="input",
+                  value=movie_id)
+
+            input(type="hidden",
+                  id="location_id",
+                  name="location_id",
+                  class="input",
+                  value=location_id)
+
+            button(class="button" type="submit") Buy

@@ -1,0 +1,26 @@
+{
+  "name": "lab_07_08_09_10-andrewmurd",
+  "version": "1.0.0",
+  "description": "The starter code for lab 07-10.",
+  "main": "node.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "pug": "^3.0.2",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSCI3230U/lab_07_08_09_10-AndrewMurd.git"
+  },
+  "author": "Andrew Murdoch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CSCI3230U/lab_07_08_09_10-AndrewMurd/issues"
+  },
+  "homepage": "https://github.com/CSCI3230U/lab_07_08_09_10-AndrewMurd#readme"
+}

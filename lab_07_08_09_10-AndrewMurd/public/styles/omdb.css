@@ -1,0 +1,62 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 15% 75%;
+}
+
+label {
+    grid-column: 1;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+input {
+    width: 400px;
+    grid-column: 2;
+    margin: auto;
+    margin-top: 13px;
+}
+
+textarea {
+    width: 500px;
+    grid-column: 2;
+    margin: auto;
+    margin-top: 13px;
+}
+
+.l1, .i1 {
+    grid-row: 1;
+}
+
+#actors {
+    height: 100px;
+}
+
+#plot {
+    height: 180px;
+}
+
+.trophy {
+    margin-top: 15px;
+    margin-right: 20px;
+    height: 35px;
+    width: 35px;
+}
+
+#cover {
+    grid-column: 2;
+    margin-top: 20px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    background-color: rgb(226, 100, 127);
+}
+
+.title, .subtitle {
+    color: white;
+}

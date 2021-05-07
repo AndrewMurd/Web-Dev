@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer type="text/javascript" src="scripts/showtimes.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="styles/omdb.css" />
+    <title>OMDB</title>
+</head>
+<body>
+    <div class="grid-container">
+        <image id="cover"> </image>
+        <label> Title: </label>
+        <input id="title" class="input" type="text" readonly>
+        <label> Year: </label>
+        <input id="year" class="input" type="text" readonly>
+        <label> Genre: </label>
+        <input id="genre" class="input" type="text" readonly>
+        <label> Runtime: </label>
+        <input id="runtime" class="input" type="text" readonly>
+        <label> Director: </label>
+        <input id="director" class="input" type="text" readonly>
+        <label> Writer: </label>
+        <input id="writer" class="input" type="text" readonly>
+        <label> Actors: </label>
+        <textarea id="actor" class="textarea" readonly></textarea>
+        <label> Plot: </label>
+        <textarea id="plot" class="textarea" readonly></textarea>
+        <label> Ratings: </label>
+        <div id="ratings">
+        </div>
+    </div>
+</body>
+</html>

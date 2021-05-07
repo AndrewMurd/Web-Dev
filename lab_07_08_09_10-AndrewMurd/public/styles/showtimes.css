@@ -1,0 +1,130 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 10% 15%;
+    grid-template-rows: 55px 55px 55px;
+}
+
+.hide {
+    display: none;
+}
+
+.table {
+    color: black;
+}
+
+#pink {
+    margin-top: 13px;
+    grid-column: 2;
+    width: 90px;
+    color: white;
+    background-color: rgb(226, 100, 127);
+}
+
+.button {
+    width: 60px;
+    height: 35px;
+    margin-top: 0px;
+    grid-column: 2;
+}
+
+object {
+    width: 800px;
+    height: 800px;
+}
+
+#contentDiv {
+    grid-column: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+#tableDiv {
+    grid-column: 2;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link {
+    width: 200px;
+}
+
+#header {
+    background-color: rgb(226, 100, 127);
+}
+
+.title, .subtitle {
+    color: white;
+}
+
+label {
+    grid-column: 1;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#date {
+    grid-column: 2;
+    margin-top: 13px;
+}
+
+
+.select {
+    grid-column: 2;
+    margin-top: 13px;
+}
+
+/*  start of css for omdb data display*/
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: 15% 75%;
+}
+
+input {
+    width: 500px;
+    grid-column: 2;
+    margin: auto;
+    margin-top: 13px;
+}
+
+textarea {
+    width: 500px;
+    grid-column: 2;
+    margin: auto;
+    margin-top: 13px;
+}
+
+.l1, .i1 {
+    grid-row: 1;
+}
+
+#actors {
+    height: 100px;
+}
+
+#plot {
+    height: 180px;
+}
+
+.trophy {
+    margin-top: 15px;
+    margin-right: 20px;
+    height: 35px;
+    width: 35px;
+}
+
+#cover {
+    grid-column: 2;
+    margin-top: 20px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title, .subtitle {
+    color: white;
+}
+

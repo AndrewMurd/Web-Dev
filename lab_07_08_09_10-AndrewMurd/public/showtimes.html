@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script defer type="text/javascript" src="scripts/showtimes.js"> </script>
+    <link rel="stylesheet" href="styles/showtimes.css" />
+    <title>Showtimes</title>
+</head>
+<body>
+    <section class="hero" id="header">
+        <div class="hero-body">
+        <p class="title">
+            Showtimes
+        </p>
+        <p class="subtitle">
+            Give me something to do!
+        </p>
+        </div>
+    </section>
+
+ 
+    <div class="grid-container">
+        <label> Location: </label>
+        <div class="select is-fullwidth">
+            <select id="loc">
+                <option>Select dropdown</option>
+            </select>
+        </div>
+        <label> Date: </label>
+        <input id="date" type="date" class="input" type="text">
+        <button class="button" id="pink">Search</button>
+
+        <div id="tableDiv"></div>
+
+        <div id="contentDiv">
+            <div class="grid-container1">
+                <image id="cover"> </image>
+                <label> Title: </label>
+                <input id="title" class="input" type="text" readonly>
+                <label> Year: </label>
+                <input id="year" class="input" type="text" readonly>
+                <label> Genre: </label>
+                <input id="genre" class="input" type="text" readonly>
+                <label> Runtime: </label>
+                <input id="runtime" class="input" type="text" readonly>
+                <label> Director: </label>
+                <input id="director" class="input" type="text" readonly>
+                <label> Writer: </label>
+                <input id="writer" class="input" type="text" readonly>
+                <label> Actors: </label>
+                <textarea id="actor" class="textarea" readonly></textarea>
+                <label> Plot: </label>
+                <textarea id="plot" class="textarea" readonly></textarea>
+                <label> Ratings: </label>
+                <div id="ratings">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
